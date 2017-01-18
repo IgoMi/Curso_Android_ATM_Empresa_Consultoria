@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_empresa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempresaconsultoria.cursoandroid.com.atmempresaconsultoria.EmpresaActivity"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/detalhe_empresa"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <TextView
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies diam non sem blandit egestas. Suspendisse vel vulputate eros, sed iaculis metus. Sed bibendum feugiat pharetra. Praesent luctus ex erat, tempor consectetur nibh blandit id. Ut venenatis velit id consectetur tincidunt. Morbi vel ex vitae velit mattis efficitur. Mauris lacus metus, dignissim a tristique id, euismod et nunc. Etiam tortor massa, molestie in elit sit amet, gravida facilisis tortor. Vivamus lacus magna, consequat sed pretium sed, hendrerit ac leo. Phasellus rhoncus risus est, vitae lacinia quam suscipit a. Donec vehicula pharetra lectus, ut convallis ex scelerisque eget. Fusce porta magna sit amet ipsum cursus, et euismod lorem lacinia. Nunc eu interdum odio. Duis tincidunt sed mi quis iaculis. Ut id magna placerat, interdum tortor id, facilisis dolor. Sed ultrices suscipit ex, posuere euismod massa sollicitudin sit amet. In interdum sem quis diam tristique, ultricies mattis augue posuere. Nunc vestibulum odio vitae iaculis pulvinar. Cras scelerisque pulvinar nisl eu tempor. Integer nulla massa, blandit at egestas non, fringilla id ex. Praesent non placerat ante. Aenean id metus sed nulla convallis accumsan. Proin vehicula semper sem. Mauris finibus turpis orci, sollicitudin blandit lectus vulputate eget. Suspendisse sollicitudin odio a ipsum faucibus, at egestas neque fringilla. Vestibulum at tincidunt magna, ut rutrum quam. Vestibulum vestibulum purus felis, nec sagittis velit rutrum at. Sed at turpis odio. Etiam sollicitudin turpis vitae quam tristique, in euismod arcu elementum. Sed interdum urna in vestibulum vulputate. Nullam congue rutrum ipsum, posuere pulvinar mi malesuada quis. Donec euismod lobortis mollis. Nam aliquam ultricies felis, eget dignissim risus rhoncus id. In hac habitasse platea dictumst. Cras volutpat, est nec ullamcorper facilisis, erat libero mattis enim, in tempus tortor lacus et ante. Nullam molestie tortor ornare, suscipit magna ut, semper dolor. Vestibulum a dictum lectus. Morbi venenatis dapibus urna ut egestas. In hac habitasse platea dictumst."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView3"
+            android:textSize="18sp" />
+    </ScrollView>
+
+    <TextView
+        android:text="Sobre a Empresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="19dp" />
+
+</RelativeLayout>
